@@ -353,8 +353,8 @@ button{
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
-.sm-shadow{
-	text-shadow:0 1px 2px rgba(0,0,0,.3);
+.pressed-t{
+	text-shadow:0 1px 0 #FFF;
 }
 .threeD-t{
 	text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),0 20px 20px rgba(0,0,0,.15);
@@ -734,6 +734,8 @@ h1,h2,h3,h4,h5,h6{
 	
 	--swatch-var-4593:rgba(255,255,255,0.5);
 	
+	--swatch-var-4258:#008700;
+	
 }
 
 
@@ -751,8 +753,8 @@ h1,h2,h3,h4,h5,h6{
 
 /* Text colour styles */
 
-.tc-2387{
-	color:var(--swatch-var-2387)!important;
+.tc-4258{
+	color:var(--swatch-var-4258)!important;
 }
 .tc-6728{
 	color:var(--swatch-var-6728)!important;
@@ -891,6 +893,12 @@ url("img/Pho%20So%201%20Picture.webp") 2x);
 	}
 	.blocs-card-width{
 		width:50%;
+	}
+	.link-style{
+		width:100%;
+	}
+	.list-style{
+		width:100%;
 	}
 	
 }
